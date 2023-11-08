@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AccountService } from './_services/account.service';
 import { useAnimation } from '@angular/animations';
-import { User } from './_modules/user';
+import { User } from './_models/user';
 
 @Component({
   selector: 'app-root',
